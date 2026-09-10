@@ -1,4 +1,4 @@
-# Requerimientos Funcionales — Sistema de Patinaje
+# Requerimientos Funcionales 
 
 ## 1. Requerimientos Funcionales
 
@@ -23,25 +23,6 @@
 | **RF-017** | Migración de información existente | El sistema deberá permitir incorporar la información existente de los patinadores almacenada actualmente en la base de datos del propietario. |
 | **RF-018** | Gestión de información de pagos | El sistema deberá permitir reemplazar el control de pagos realizado actualmente mediante archivos de Excel por un sistema centralizado de gestión y consulta. |
 
-## 2. Matriz de permisos por rol
-
-| Funcionalidad | Patinador | Padre | Entrenador | Administrador |
-|---|:---:|:---:|:---:|:---:|
-| Consultar información propia | ✓ | ✓ | ✓ | ✓ |
-| Gestionar patinadores | — | — | — | ✓ |
-| Gestionar entrenadores | — | — | — | ✓ |
-| Gestionar padres | — | — | — | ✓ |
-| Crear sanciones | — | — | ✓ | ✓ |
-| Modificar sanciones | — | — | ✓ | ✓ |
-| Autorizar competencias | — | ✓ | — | — |
-| Autorizar cambio de uniforme | — | ✓ | — | — |
-| Registrar pagos | — | — | — | ✓ |
-| Validar pagos | — | — | — | ✓ |
-| Consultar dashboard de pagos | — | — | ✓ | ✓ |
-| Registrar asistencia | — | — | ✓ | ✓ |
-| Consultar asistencia | ✓ | ✓ | ✓ | ✓ |
-
-## 3. Consideraciones
 
 - El sistema **no contará con una pasarela de pago**.
 - Los medios de pago contemplados inicialmente son:
