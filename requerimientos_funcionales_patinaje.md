@@ -28,8 +28,8 @@
 - Los medios de pago contemplados inicialmente son:
   - **Efectivo**
   - **Transferencia mediante Bre-B**
-- El sistema deberá registrar y permitir validar los pagos, pero no procesará directamente la transacción bancaria.
-- Actualmente el control de pagos se realiza mediante un archivo de **Excel**, por lo que el nuevo sistema deberá centralizar esta información.
+- El sistema deberá registrar y permitir validar los pagos, pero no procesa directamente la transacción bancaria.
+- Actualmente el control de pagos se realiza mediante un archivo de **Excel** 
 - El Administrador tendrá permisos para gestionar patinadores, entrenadores y padres de familia, además de crear y modificar sanciones.
 - El Entrenador podrá crear y modificar sanciones y gestionar la asistencia.
 - El Padre de familia tendrá la responsabilidad de autorizar competencias y cambios de uniforme.
